@@ -1,0 +1,167 @@
+
+header{
+   
+    padding:20px 20px;
+    position:fixed;
+    z-index:100;
+    color:#000;
+    width:100%;
+    background:rgb(255,255,255);
+    filter:drop-shadow(1px 3px 6px  rgba(0,0,0,.4));
+}
+
+#menu{
+    margin-top:10px;
+}
+#button{
+    box-shadow:none;
+    border:none;
+}
+.bx-menu{
+    color:#000;
+    font-size:40px;
+}
+h1{
+    position:absolute;
+    top:36px;
+    right:30px;
+ 
+}
+#menu ul li > a{
+    color:#000;
+}
+.sesion1{
+    display:flex;
+    justify-content:center;
+    background:linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(../imgs/zach-vessels--7I5Z7zPXGY-unsplash.jpg);
+    background-position:center;
+    background-size:cover;
+    position:relative;
+    padding-top:140px;
+    height:550px;
+   
+    
+   
+}
+#sesion1__content{
+
+    padding:20px 20px;
+}
+#sesion1__content h2, p{
+    margin-bottom:20px;
+
+}
+/*sesion2*/
+.sesion2{
+  
+    background:rgba(235, 245, 251);
+    padding-top:30px;
+
+}
+.sesion2_c1, .sesion2_hc1{
+    margin-top:60px;
+}
+#img1{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    margin-bottom:20px;
+}
+
+
+/*articulo1*/
+.articulo1{
+    padding-top:20px;
+    background:rgb(255,255,255);
+    padding-bottom:15px;
+}
+.articulo1_c1{
+
+    display:flex;
+    justify-content:center;
+    justify-content:space-around;
+    margin-top:50px;
+    margin-bottom:30px;
+}
+
+
+
+/*artiulo2*/
+.articulo2{
+    padding-top:30px;
+    background:rgba(128,0,0,.8);
+    margin-top:50px;
+    padding-bottom:30px;
+}
+footer{
+    padding:20px 20px;
+    background:rgb(128,0,0);
+    color:#fff;
+
+}
+#redes{
+    font-size:25px;
+}
+
+@media screen and (min-width:768px){
+
+    .sesion1{
+        padding-top:200px;
+    }
+    #sesion1__content{
+        padding:30px 50px;
+       
+        height:280px;
+    }
+    .sesion2_c1{
+        display:flex;
+        padding:0px 10px;
+        justify-content:space-around;
+    }
+    .sesion2_hc1{
+        margin-right:10px;
+    }
+    
+}
+@media screen and (min-width:1024px){
+
+    .sesion1{
+        height:700px;
+        padding-top:320px;
+    }
+    .sesion2_c1{
+        margin-bottom:40px;
+        padding-bottom:30px;
+    }
+   
+    #articulo2__content > a{
+       
+        width:200px;
+        font-size:15px;
+    }
+    .articulo2{
+
+        height:260px;
+    }
+
+    .bxl-twitter, .bxl-facebook-circle,  .bxl-instagram{
+        transition:all 1s;
+    }
+    .bxl-twitter:hover{
+
+        transform:scale(2);
+        filter:drop-shadow(1px 3px 6px rgba(0,0,0));
+
+    }
+     .bxl-facebook-circle:hover{
+        transform:scale(2);
+        filter:drop-shadow(1px 3px 6px rgba(0,0,0));
+
+         
+     }
+    .bxl-instagram:hover{
+        transform:scale(2);
+        filter:drop-shadow(1px 3px 6px rgba(0,0,0));
+
+    }
+}
